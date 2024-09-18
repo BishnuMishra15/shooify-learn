@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {{ content_for_header }}
+    <style>
+      .body-wrapper {
+        margin: 0px 120px;
+      }
+    </style>
+  </head>
+  <body class="body-wrapper">
+    {% comment %} {% section 'header-sec' %} {% endcomment %}
+
+    {{ content_for_layout }}
+  </body>
+</html>
